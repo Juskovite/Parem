@@ -1,0 +1,160 @@
+p
+{
+	color: black;
+	font-size : 20px;
+	font-family : Georgia;
+	text-align: justify;
+	width : 80%;
+	margin-right: auto;
+	margin-left: 180px;
+}
+
+@font-face
+{
+	font-family: GVR;
+	 src: url('GVR.otf');
+}
+
+@font-face
+{
+	font-family: Kaushan;
+	src: url('Kaushan');
+}
+
+h1{
+	font-family: GVR;
+	font-size: 250px;
+	color: yellow;
+	margin-top: 15px;
+	padding-bottom : 0px;
+	margin-bottom: 0px;
+	margin-right: 15%;
+	float: right;
+}
+h2{
+text-align: justify;
+width: 95%;
+margin: 20px;
+}
+
+h3{
+	font-family: GVR;
+	font-size: 50px;
+	margin-left: 200px;
+}
+
+
+
+.imagepensif{
+	float: right;
+	width: 400px;
+	height: auto;
+	border-radius: 10%;
+	margin-right: 7% ;
+	padding: 10px;
+
+
+}
+
+.titre
+{ 
+	font-family: fantasy;
+	color: lightgoldenrodyellow;
+	font-size: 50px;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: center;
+}
+
+#frise{
+	display: flex;
+	justify-content: flex-start;
+	margin-right: 7%;
+
+}
+
+img
+{
+	width: 150px;
+	height: auto;	
+}
+
+body
+{
+    background: rgba(0,0,0,0.3) repeat;
+
+    
+}
+.imageprofil
+{
+	background-image: url("ProfilParem.jpg") top right no-repeat;
+}
+
+
+.titreliste{
+	text-align: top left;
+	color: lightgoldenrodyellow;
+	font-family: GVR;
+	font-size: 40px;
+	padding-left: 1px;
+	margin-left: 0px;
+}
+
+.liste{
+	margin-bottom: 1px;
+	margin-top: 0px;
+	padding-top: 0px;
+	color: black;
+	list-style-type: none;
+
+}
+
+#sommaire{
+	font-family: Kaushan;
+	font-size: 20px;
+	display: flex;
+	margin-left : 1px;
+	width: 160px;
+	padding: 5px;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: black; /* Appliquer une couleur grise */
+}
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.soundcloud{
+	margin-top: 0px;
+	margin-left: 15%;
+	border-radius: 25%;
+	width: 250px;
+	height: auto;
+}
+
+figure {
+  	margin-right: auto;
+	margin-left: 180px;;
+}
+figcaption{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+nav
+{
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+}
